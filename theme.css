@@ -1,0 +1,15 @@
+/* Bright cobalt theme and frosted-glass surfaces */
+:root{--bg:#eaf1ff;--surface:#f7faff;--ink:#132866;--muted:#4f6496;--accent:#ff714b;--line:rgba(19,40,102,.16);--shadow:rgba(22,63,180,.18)}
+[data-theme="dark"]{--bg:#2254dc;--surface:#2d60ed;--ink:#f7faff;--muted:#dce7ff;--accent:#ff8a63;--line:rgba(255,255,255,.25);--shadow:rgba(7,24,91,.3)}
+.brand-name{white-space:nowrap;line-height:1;font-weight:500;letter-spacing:.025em}.brand-name strong{font-weight:800;letter-spacing:.06em}
+.site-header{background:rgba(247,250,255,.28);border-color:rgba(255,255,255,.55);box-shadow:0 12px 45px var(--shadow),inset 0 1px rgba(255,255,255,.65)}
+[data-theme="dark"] .site-header{background:rgba(10,32,121,.3);border-color:rgba(255,255,255,.42);box-shadow:0 14px 46px rgba(5,23,99,.24),inset 0 1px rgba(255,255,255,.32)}
+.desktop-nav{padding:5px;border:1px solid rgba(255,255,255,.38);border-radius:999px;background:rgba(255,255,255,.09);box-shadow:inset 0 1px rgba(255,255,255,.2)}
+.desktop-nav a{padding:6px 9px;border-radius:999px}.desktop-nav a:hover{background:rgba(255,255,255,.15);color:var(--ink)}
+.theme-toggle,.header-cta,.button,.button-light,.project-note,.wood-chip{border:1px solid rgba(255,255,255,.46);background:rgba(255,255,255,.14);backdrop-filter:blur(18px) saturate(145%);-webkit-backdrop-filter:blur(18px) saturate(145%);box-shadow:inset 0 1px rgba(255,255,255,.42),0 10px 28px rgba(7,24,91,.16)}
+.header-cta,.button,.button-light{color:var(--ink)}.header-cta span,.button span,.button-light span{background:rgba(255,255,255,.28)}
+.theme-toggle{background:rgba(255,255,255,.13)}.toggle-knob{background:rgba(255,255,255,.76)}
+.project-note{background:rgba(12,36,124,.28);color:#fff;border-color:rgba(255,255,255,.43)}.project-note strong{color:#fff}.project-note span{color:#ffd1bd}
+.wood-chip{background:rgba(255,113,75,.46);color:#fff}
+.process-section{background:#102a91;color:#f7faff}.process-intro em{color:#b7d3ff}.step{border-color:rgba(255,255,255,.24)}.step p{color:#dce7ff}
+[data-theme="dark"] .contact-card{background:#ff7d55}.contact-card{box-shadow:inset 0 1px rgba(255,255,255,.4),0 18px 48px rgba(17,56,180,.25)}
