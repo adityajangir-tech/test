@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AJAY FURNITURE creates made-to-measure home furniture, installed in your space." />
+    <title>AJAY FURNITURE | Made for your home</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="whatsapp.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <div class="page-grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ajay Furniture home">
+        <span class="brand-mark">AF</span>
+        <span class="brand-name"><strong>AJAY</strong> FURNITURE</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work">Our work</a>
+        <a href="#process">Our process</a>
+        <a href="#about">Why us</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-cta" href="#contact">Plan your space <span>↗</span></a>
+        <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="bar bar-top"></span>
+          <span class="bar bar-mid"></span>
+          <span class="bar bar-bottom"></span>
+        </button>
+      </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#work">Our work <span>↗</span></a>
+        <a href="#process">Our process <span>↗</span></a>
+        <a href="#about">Why us <span>↗</span></a>
+        <div class="mobile-theme-row">
+          <span>Theme</span>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+            <span class="sun">☼</span><span class="toggle-knob"></span><span class="moon">☾</span>
+          </button>
+        </div>
+        <a class="mobile-cta" href="#contact">Plan your space <span>↗</span></a>
+      </nav>
+    </div>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">CUSTOM FURNITURE AT HOME</p>
+          <h1>Built around<br /><em>your life.</em></h1>
+          <p class="hero-text">We design and build made-to-measure wardrobes, kitchens and storage directly for your home.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a project <span>↗</span></a>
+            <a class="text-link" href="#work">Explore recent work <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal delay-1">
+          <div class="image-shell hero-image-shell">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Custom timber cabinetry in a bright modern living space" />
+          </div>
+          <div class="project-note">
+            <span>Made to measure</span>
+            <strong>Every wall has potential.</strong>
+          </div>
+          <div class="wood-chip" aria-hidden="true">✦</div>
+        </div>
+      </section>
+
+      <section class="trust section-shell reveal" aria-label="Services">
+        <p>Furniture that belongs in your home.</p>
+        <div><span>WARDROBES</span><span>KITCHENS</span><span>TV UNITS</span><span>STORAGE</span></div>
+      </section>
+
+      <section class="work-section section-shell" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">RECENT WORK</p>
+          <h2>Spaces with a<br />sense of <em>belonging.</em></h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card work-card-large reveal">
+            <div class="image-shell work-image"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85" alt="Contemporary custom living room storage" /></div>
+            <div class="work-meta"><div><h3>Living room storage</h3><p>Made to fit the architecture, not fight it.</p></div><span>01</span></div>
+          </article>
+          <article class="work-card work-card-tall reveal delay-1">
+            <div class="image-shell work-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85" alt="Built-in bedroom wardrobe in warm timber" /></div>
+            <div class="work-meta"><div><h3>Bedroom wardrobe</h3><p>Quiet storage with a daily purpose.</p></div><span>02</span></div>
+          </article>
+          <article class="work-card work-card-wide reveal">
+            <div class="image-shell work-image"><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1400&q=85" alt="Custom fitted kitchen with wood and stone finishes" /></div>
+            <div class="work-meta"><div><h3>Family kitchen</h3><p>Built for the way a home comes together.</p></div><span>03</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process-section" id="process">
+        <div class="section-shell process-wrap">
+          <div class="process-intro reveal"><p class="eyebrow">HOW WE WORK</p><h2>From first<br />measure to <em>final fit.</em></h2></div>
+          <div class="process-steps">
+            <article class="step reveal"><span>01</span><div><h3>Visit & listen</h3><p>We come to your home, measure the space and understand what you need from it.</p></div></article>
+            <article class="step reveal delay-1"><span>02</span><div><h3>Design together</h3><p>Materials, layout and detailing are chosen around your routine and your rooms.</p></div></article>
+            <article class="step reveal delay-2"><span>03</span><div><h3>Build & install</h3><p>Our team makes each piece and installs it carefully in your home.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-shell" id="about">
+        <div class="about-image image-shell reveal"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1300&q=85" alt="Handcrafted wood cabinetry and shelving" /></div>
+        <div class="about-copy reveal delay-1"><p class="eyebrow">THE AJAY DIFFERENCE</p><h2>Not showroom furniture. <em>Your furniture.</em></h2><p>AJAY FURNITURE is built around the simple idea that good furniture should feel inevitable in the space it occupies. We make it for your walls, your storage needs and the rhythms of your home.</p></div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact">
+        <div class="contact-card reveal">
+          <p class="eyebrow">YOUR HOME, NEXT</p>
+          <h2>Let’s make room<br />for what matters.</h2>
+          <p>Tell us what you are planning. We will visit, measure and help you see what is possible.</p>
+          <div class="contact-actions"><a class="button button-light" href="tel:+918780974654">Call +91 87809 74654 <span>↗</span></a><a class="whatsapp-link" href="https://wa.me/918780974654" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp at +91 87809 74654"><span class="whatsapp-icon" aria-hidden="true"><img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" /></span> WhatsApp <span class="whatsapp-arrow" aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-mark">AF</span><span class="brand-name"><strong>AJAY</strong> FURNITURE</span></a><p>Custom furniture, made at home.</p><p>© 2026 AJAY FURNITURE</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
